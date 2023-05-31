@@ -7,5 +7,14 @@ untuk check status file yg blm di stagging dll
 $ git add <nama file>
 menambahkan file ke staging
 
+$ git add .
+menambahkan semua file ke staging
+
+
 $ git rm --cached <file>
 untuk unstaging file
+
+$ git config --global user.name <name>
+$ git config --global user.email <name>
+
+$ git commit -m <pesan> 
