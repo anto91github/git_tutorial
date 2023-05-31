@@ -1,0 +1,11 @@
+$ git init
+Inisialisasi folder menjadi git
+
+$ git status
+untuk check status file yg blm di stagging dll
+
+$ git add <nama file>
+menambahkan file ke staging
+
+$ git rm --cached <file>
+untuk unstaging file
