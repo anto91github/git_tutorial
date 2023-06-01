@@ -53,3 +53,10 @@ untuk visualisasi branch
 
 $ alias graph="git log --all --decorate --oneline --graph"
 untuk buat alias
+
+$ git clone
+get repo dari luar
+
+$ git push
+push commit an ke remote
+
