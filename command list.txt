@@ -60,3 +60,8 @@ get repo dari luar
 $ git push
 push commit an ke remote
 
+$ git remote add origin https://github.com/anto91github/git_tutorial.git
+set remote yg namanya origin ke github
+
+$ git push -u origin main
+push commit ke origin, branch main, -u artinya upstream, jadi nanti ketika git push saja, otomatis ke origin
