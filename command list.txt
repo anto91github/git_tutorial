@@ -18,3 +18,38 @@ $ git config --global user.name <name>
 $ git config --global user.email <name>
 
 $ git commit -m <pesan> 
+
+$ git log
+
+$ git log -3
+lihat log commit 3 terakhir
+
+$ git log -- <nama file>
+log dari 1 file
+
+$ git checkout <first 5 digit hash> -- <nama file>
+untuk kembali ke kondisi state sesuai hash versi nya
+
+$ git branch
+list branch yg ada
+
+$ git branch <nama_branch>
+create new branch
+
+$ git checkout <nama_branch>
+pindah branch
+
+$ git merge <nama_branch>
+menggabungkan branch
+
+$ git branch -d <nama_branch>
+hapus branch
+
+$ git branch -D <nama_branch>
+hapus branch meski blm di merge
+
+$ git log --all --decorate --oneline --graph
+untuk visualisasi branch
+
+$ alias graph="git log --all --decorate --oneline --graph"
+untuk buat alias
